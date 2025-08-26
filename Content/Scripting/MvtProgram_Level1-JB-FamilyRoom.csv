@@ -1,4 +1,0 @@
-RowName,Actor,TimeFunction,deltaX,deltaY,deltaZ,deltaXrot,deltaYrot,deltaZrot,Param1,Param2
-1,Earth,QuarterSine,0,0,0,0,0,360,2,1.5
-2,Skybox,QuarterSine,0,0,0,0,0,360,2,1.5
-3,Ship,CompressedSigmoid,0,0,0,0,0,90,200,0.56

@@ -19,5 +19,8 @@ public:
     static float CompressedSigmoidalDiff(float x, float a, float x0);
 
 	UFUNCTION(BlueprintCallable, Category = "CustomMath")
-	static float StretchedHalfSine(float x, float a, float n);
+	static float StretchedHalfSineDiff(float x, float a, float n);
+
+	UFUNCTION(BlueprintCallable, Category = "CustomMath")
+	static float PiecewiseLinearDiff(float x, float x_start, float x_end);
 };

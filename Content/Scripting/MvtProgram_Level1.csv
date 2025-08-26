@@ -2,3 +2,4 @@ RowName,Actor,TimeFunction,deltaX,deltaY,deltaZ,deltaXrot,deltaYrot,deltaZrot,Pa
 1,Earth,StretchedSine,0,0,0,0,0,360,1,1.5
 2,Skybox,StretchedSine,0,0,0,0,0,360,1,1.5
 3,Ship,CompressedSigmoid,0,0,0,0,0,135,50,0.615
+4,Earth,StretchedSine,50000000,0,0,0,0,0,1,1.5

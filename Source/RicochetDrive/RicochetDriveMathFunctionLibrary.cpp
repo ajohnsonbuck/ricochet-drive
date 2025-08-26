@@ -15,7 +15,7 @@ float URicochetDriveMathFunctionLibrary::CompressedSigmoidalDiff(float x, float 
 
 }
 
-float URicochetDriveMathFunctionLibrary::StretchedHalfSine(float x, float a, float n)
+float URicochetDriveMathFunctionLibrary::StretchedHalfSineDiff(float x, float a, float n)
 {	// df/dx, where f(x) = 0.5*a*(sin(pi/a*x^n - pi/2) + 1)
 	// First half of a sine period stretched to fill ([0,1],[0,1])
 	// Larger a gives more stretched sine; larger n gives sharper acceleration/deceleration curve
@@ -27,5 +27,19 @@ float URicochetDriveMathFunctionLibrary::StretchedHalfSine(float x, float a, flo
 	float c = 0.5 * pi * n * FMath::Pow(x, n - 1);
 
 	return c * FMath::Cos(b);
+
+}
+
+float URicochetDriveMathFunctionLibrary::PiecewiseLinearDiff(float x, float x_start, float x_end)
+{ // df/dx, where f(x) = { 0 if x < x_start
+  //			 { 1/(x_end - x_start) * (x - x_start) if x_start <= x <= x_end
+  //			 { 1 if x > x_end
+
+	if (x >= x_start && x <= x_end && x_start != x_end)  {
+			return 1 / (x_end - x_start);
+		}
+	else {
+			return 0;
+	}
 
 }
