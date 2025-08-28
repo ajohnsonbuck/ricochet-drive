@@ -49,8 +49,8 @@ def snap_beats(InFileName,OutFileName,Quantization):
     
     return Time_Snapped
 
-FileName = 'C:\\Users\\aledb\\OneDrive\\Documents\\Unreal Projects\\RicochetDrive\\Content\\Music\\CosmicShoresBeats1.csv'
-OutFileName = 'C:\\Users\\aledb\\OneDrive\\Documents\\Unreal Projects\\RicochetDrive\\Content\\Music\\CosmicShoresBeats1_quantized.csv'
+FileName = 'C:\\Users\\aledb\\OneDrive\\Documents\\Unreal Projects\\RicochetDrive\\Content\\Music\\Beats_SeleniumGroove.csv'
+OutFileName = 'C:\\Users\\aledb\\OneDrive\\Documents\\Unreal Projects\\RicochetDrive\\Content\\Music\\Beats_SeleniumGroove_quantized.csv'
 
 Time_Snapped = snap_beats(FileName,OutFileName,0.5)
     
