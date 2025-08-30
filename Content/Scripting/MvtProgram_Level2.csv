@@ -1,5 +1,6 @@
 RowName,Actor,TimeFunction,deltaX,deltaY,deltaZ,deltaXrot,deltaYrot,deltaZrot,Param1,Param2
-1,Ship,CompressedSigmoid,0,0,0,0,0,-180,60,0.48
-2,Ship,CompressedSigmoid,0,0,0,0,90,0,30,0.25
-3,Ship,CompressedSigmoid,0,0,0,0,0,20,120,0.05
-5,Earth,StretchedSine,1.03E+09,2400000000,0,0,0,0,1,1
+1,Ship,CompressedSigmoid,0,0,0,0,0,20,120,0.05
+2,Ship,CompressedSigmoid,0,0,0,0,-90,0,30,0.25
+3,Ship,CompressedSigmoid,0,0,0,0,0,-180,60,0.48
+4,Ship,CompressedSigmoid,0,0,0,0,0,180,90,0.92
+5,Earth,StretchedSine,1.12E+09,2580000000,0,0,0,0,1,1

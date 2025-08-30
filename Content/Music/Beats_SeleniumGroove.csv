@@ -229,7 +229,6 @@ Row,Time,EventType,Param
 227,256.641258,SpawnTarget,White
 228,257.8359425,SpawnTarget,Green
 229,260.2879078,SpawnTarget,White
-230,261.3958266,SpawnTarget,White
-231,262.7055135,SpawnTarget,Blue
-232,265.4632342,SpawnTarget,White
-233,10000,NaN,NaN
+230,264.1679078,SpawnTarget,White
+231,265.4632342,SpawnTarget,White
+232,10000,NaN,NaN
